@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Okky Dhelfilano -->
+<!-- Universitas Gunadarma -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat tampilan responsive Landing Page dan Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <img src="assets/img/logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" aria-labelledby="top-navbarLabel" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><u>Product</u></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><u>Blog</u></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><u>Support</u></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><u>Log In</u></a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn" id="button1" type="button">Get Access</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-8 d-flex flex-column text-md-start">
+                    <h1>Instant collaboration <br> for remote teams</h1>
+                    <p>All-in one place for your remote team to chat, <br> collaborate and track project progress.</p>
+                    <form class="row g-3 mt-4">
+                        <div class="col-auto">
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="EmailInput" placeholder="Email">
+                                <div class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-right">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto" >
+                            <button class="btn"  id="button2"  type="button">Get Early Access</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End-->
+
+    <!-- Main Content -->
+    <section class="container-fluid mt-5" id="MainContent">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-2 order-md-2 order-lg-1">
+                <div class="offset-md-2">
+                    <h1>Chats for your distributed teams</h1>
+                    <p>Team combines the immediacy of real-time chat with an email threading model. With Team, you can
+                        catch up on important conversations while ignoring irrelevant ones.
+                    </p>
+                    <br>
+                    <a href="#">Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-md-1 order-lg-2">
+                <img src="assets/img/Content1.png" class="img-fluid" alt="Chat for Teams">
+            </div>
+        </div>
+    </section>
+    <!-- Main Content End -->
+
+    <!-- Content -->
+    <section class="container mt-5" id="content">
+        <div class="row align-items-center mt-5">
+            <div class="col-lg-6 order-1 order-md-1">
+                <img src="assets/img/Content2.JPG" class="img-fluid" alt="Flexible Work">
+            </div>
+            <div class="col-lg-6 order-2 order-md-2">
+                <h1>Chats for your distributed teams</h1>
+                <p>In Team combines the immediacy of real-time chat with an email threading model. With Team, you can
+                    catch up on important conversations while ignoring irrelevant ones.
+                </p>
+                <br>
+                <a href="#">Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="row align-items-center mt-5">
+            <div class="col-lg-6 order-2 order-md-2 order-lg-1">
+                <h1>Choose how you want to work</h1>
+                <p>In Team, you've got all the flexibility to work when, where and how it's best for you. You can
+                    easily chat, send audio and video clips, or hop on a huddle to talk things out live..
+                </p>
+                <br>
+                <a href="#">Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-lg-6 order-1 order-md-1 order-lg-2">
+                <img src="assets/img/Content3.JPG" class="img-fluid" alt="Integrations">
+            </div>
+        </div>
+        <div class="row align-items-center mt-5">
+            <div class="col-lg-6 order-1 order-md-1">
+                <img src="assets/img/content4.JPG" class="img-fluid" alt="Integrations">
+            </div>
+            <div class="col-lg-6 order-2 order-md-2">
+                <h1>Move faster with your Team tools</h1>
+                <p>With your other work apps connected to Team, you can work faster by switching tabs less. And with
+                    powerful tools like Workflow Builder, you can automate away routine tasks.
+                </p>
+                <br>
+                <a href="#">Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Content End -->
+
+    <!-- Testimoni -->
+    <div class="container" id="testimoni">
+        <h1 class="text-center">What people say about Team</h1>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center pt-5 pb-5">
+                        <div class="card p-3 mx-2">
+                            <div class="card-body">
+                                <div class="stars mb-3">
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                </div>
+                                <p>Vestibulum eu quam  neque pellentesque eget nisl. porta est  bibendum ultricies laoreet...</p>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/chelsea.png" alt="User Image" class="rounded-circle" width="50">
+                                    <div class="ms-3">
+                                        <h6 class="mb-0">Chealsea Morgan</h6>
+                                        <small class="text-muted">CEO at Subway</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card p-3 mx-2">
+                            <div class="card-body">
+                                <div class="stars mb-3">
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                </div>
+                                <p>Vestibulum eu quam  neque pellentesque eget nisl. porta est  bibendum ultricies laoreet..</p>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/nick.png" alt="User Image" class="rounded-circle" width="50">
+                                    <div class="ms-3">
+                                        <h6 class="mb-0">Nick Cave</h6>
+                                        <small class="text-muted">CMO ot Nokia</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card p-3 mx-2">
+                            <div class="card-body">
+                                <div class="stars mb-3">
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                </div>
+                                <p>Vestibulum eu quam  neque pellentesque eget nisl. porta est  bibendum ultricies laoreet..</p>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/lana.png" alt="User Image" class="rounded-circle" width="50">
+                                    <div class="ms-3">
+                                        <h6 class="mb-0">Lana Rosenfeld</h6>
+                                        <small class="text-muted">Senior VP</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card p-3 mx-2">
+                            <div class="card-body">
+                                <div class="stars mb-3">
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                </div>
+                                <p>Vestibulum eu quam  neque pellentesque eget nisl. porta est  bibendum ultricies laoreet..</p>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/young.png" alt="User Image" class="rounded-circle" width="50">
+                                    <div class="ms-3">
+                                        <h6 class="mb-0">Young Liu</h6>
+                                        <small class="text-muted">CEO ot Foxconn</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Testimoni End -->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pr-md-5">
+                    <img src="assets/img/logo.png" alt="logo">
+                    <p><small>Collaboration platform <br> for mordern team</small></p>
+                </div>
+                <div class="col-md">
+                    <ul class="list-unstyled nav-link">
+                        <li>
+                            <h3>Company</h3>
+                        </li>
+                        <li><p><small>Product</small></li>
+                        <li><p><small>Blog</small></li>
+                        <li><p><small>Support</small></li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h3>Features</h3>
+                        </li>
+                        <li>
+                            <p><small>Screen Sharing</small></p>
+                        </li>
+                        <li>
+                            <p><small>iOS & Android Apps</small></p>
+                        </li>
+                        <li>
+                            <p><small>File Sharing</small></p>
+                        </li>
+                        <li>
+                            <p><small>User Managment</small></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h3>Contact Us</h3>
+                        </li>
+                        <li>
+                            <p><small>info@teamapp.com</small></p>
+                        </li>
+                        <li>
+                            <p><small>1-800-200-300</small></p>
+                        </li>
+                        <li>
+                            <p><small>1010 Sunset Blv.</small></p>
+                        </li>
+                        <li>
+                            <p><small>Palo Alto, California</small></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md ">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h3>Stay up to date</h3>
+                        </li>
+                        <li>
+                            <p><small>Subscribe to our newsletter</small></p>
+                        </li>
+                        <form class="row g-3">
+                            <div class="col-auto">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" id="EmailInput" placeholder="Email">
+                                    <div class="input-group-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </ul>
+                </div>                
+            </div>
+
+            <div class="row ">
+                <div class="col-12">
+                    <div class="copyright">
+                        <p><small>&copy; Copyright Team Inc.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</body>
+
+</html>
